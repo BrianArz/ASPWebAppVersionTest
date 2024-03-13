@@ -247,7 +247,6 @@
   
   <PropertyGroup>
     <TaskAssembly Condition=" $([MSBuild]::IsOSPlatform('Windows')) ">$(NuGetPackageRoot)msbuildversioning.core\1.1.0\lib\netstandard2.0\MSBuildVersioning.Core.dll</TaskAssembly>
-    <TaskAssembly Condition=" $([MSBuild]::IsOSPlatform('Linux')) ">$(HOME)/.nuget/packages/msbuildversioning.core/1.1.0/lib/netstandard2.0/MSBuildVersioning.Core.dll</TaskAssembly>
   </PropertyGroup>
     
   <UsingTask TaskName="GitVersionFile" AssemblyFile="$(TaskAssembly)" />
