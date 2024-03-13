@@ -363,4 +363,4 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # Version Info
-[Vv]ersion[Ii]nfo.cs
+ASPWebAppVersionTest/Properties/[Vv]ersion[Ii]nfo.cs
